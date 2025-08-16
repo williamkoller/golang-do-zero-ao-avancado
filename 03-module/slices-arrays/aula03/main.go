@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// make e for para listas
 func main() {
 	list := []int{4, 9, 6, 6}
 	list = append(list, 8)
@@ -14,7 +15,6 @@ func main() {
 	fmt.Println("Lista pos2: ", list[1])
 	fmt.Println("Lista pos3: ", list[2])
 	fmt.Println("Lista string: ", listString)
-
 
 	listMake := make([]int, 1)
 	listMake[0] = 5
