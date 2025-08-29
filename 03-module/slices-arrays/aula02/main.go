@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// criando lista
 func main() {
 	list := []int{4, 9, 6, 7}
 	list = append(list, 8)

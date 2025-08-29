@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+// conceito de lista
 func main() {
 	list := []int{4, 9, 6, 7} // listagem estatica
 	fmt.Println("List: ", list)
