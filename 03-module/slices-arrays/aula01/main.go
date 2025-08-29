@@ -7,5 +7,6 @@ func main() {
 	fmt.Println("List: ", list)
 	fmt.Println("List: ", list[0])
 	fmt.Println("List: ", list[1])
+	fmt.Println("List: ", list[2])
 	fmt.Println("List: ", len(list))
 }
