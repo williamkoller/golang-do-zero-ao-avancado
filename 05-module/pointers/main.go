@@ -7,12 +7,11 @@ func main() {
 	y := &x
 	*y = 10
 	fmt.Println("Main=====")
+	ImprimirValores(&x, y)
 	fmt.Println(x, *y)
 	fmt.Println(&x, y)
-	ImprimirValores(&x, y)
 }
 
 func ImprimirValores(x *int, y *int) {
-	fmt.Println("ImprimirValores=====")
-	fmt.Println(x, y)
+	*x = 20
 }
